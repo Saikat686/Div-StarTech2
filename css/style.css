@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: black;
+    margin: 15px;
+}
+.main {
+    display: flex;
+}
+.product_card{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 550px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.main .save span{
+    background-color: #6e2594;
+    color: #fff;
+    height: 388px;
+    width: 252px;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+}
+.main .img{
+    text-align: center;
+}
+
+a{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(17, 17, 17);
+}
+
+.price{
+    text-align: center;
+}
+
+.price .new{
+    color: rgb(239, 74, 35);
+    font-size: larger;
+}
+
+.price .old{
+   text-decoration: line-through;
+   color: rgb(102, 102, 102);
+   font-size: small;
+}
+
+
+.buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;  
+
+}
+.buy .button{
+    color: #f2f4f8;
+    background-color: rgb(55, 73, 187);
+}    
+
+.buy button{
+    width: 50%;
+    height: 20%;
+    margin: 5px;
+    color: #fff;
+    background-color: #666;
+    
+}
